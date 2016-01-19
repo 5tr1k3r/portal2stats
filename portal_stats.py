@@ -1,9 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
 from collections import namedtuple
+from maps import raw_maps
 import pickle
 import markdown2
 import webbrowser
+
 
 WR = namedtuple('WR', ['holder', 'time'])
 PR = namedtuple('PR', ['map', 'time', 'rank'])
@@ -15,7 +17,6 @@ steam_ids = {'5tr1k3r': '76561198033958873',
 
 
 def get_map_list():
-    from portal_data import raw_maps
     map_list = {}
     for level in raw_maps:
         map_list[level[0]] = PortalMap(*level)
