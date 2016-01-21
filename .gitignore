@@ -1,3 +1,3 @@
 pickles/
-__pycache__/
-/__pycache__
+pycache/
+/pycache
