@@ -1,0 +1,24 @@
+@import url('main.css');
+
+h3 {width: 612px}
+
+td:nth-child(n+3) {width: 80px}
+
+td:nth-child(1) {
+    width: 60px;
+}
+
+td:nth-child(2) {
+    width: 180px;
+    text-align: left;
+    border-left: 0.1em solid black;
+}
+
+td:nth-child(3) {border-left: 0.1em solid black}
+td:nth-child(5) {border-left: 0.1em solid black}
+
+th:nth-child(2) {border-left: 0.1em solid black}
+th:nth-child(3) {border-left: 0.1em solid black}
+th:nth-child(5) {border-left: 0.1em solid black}
+
+p {width: 612px}

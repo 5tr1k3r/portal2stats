@@ -1,0 +1,26 @@
+@import url('main.css');
+
+h3 {width: 476px}
+
+td:nth-child(1) {width: 60px}
+td:nth-child(2) {
+    width: 180px;
+    text-align: left;
+    border-left: 0.1em solid black;
+}
+
+td:nth-child(3) {
+    border-left: 0.1em solid black;
+    width: 120px;
+}
+
+td:nth-child(4) {
+    border-left: 0.1em solid black;
+    width: 80px;
+}
+
+th:nth-child(2) {border-left: 0.1em solid black}
+th:nth-child(3) {border-left: 0.1em solid black}
+th:nth-child(4) {border-left: 0.1em solid black}
+
+p {width: 476px}

@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+}
+
+h3 {
+    text-align: center;
+    background-color: #ffc080;
+    margin: auto;
+}
+
+table, th, td {
+   border-collapse: collapse;
+   padding: 4px;
+   text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.good, .bad, .big_diff{
+    font-weight: bold;
+    display: inline;
+}
+
+.good {color: green}
+.bad {color: red}
+.big_diff {color: blue}
+
+tr:nth-child(even) {background-color: #f2fffc}
+tr:nth-child(odd) {background-color: #f2f2f2}
+
+table {margin: auto}
+
+p {
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    margin: auto;
+}
